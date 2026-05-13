@@ -17,7 +17,7 @@ li {
 }
 
 body {
-  background-color: #09090B;
+  background-color: #010510;
 }
 
 .container {
@@ -263,7 +263,6 @@ body {
   justify-content: space-around;
   align-items: center;
   text-align: center;
-
   margin-top: 60px;
 }
 
@@ -572,6 +571,7 @@ body {
   .about .about-content{
     width: 100%;
     text-align: center;
+    margin-bottom: 20px;
     
   }
   .about-title .about-content p{
@@ -581,6 +581,10 @@ body {
   .about .about-img{
     width: 100%;
   }
+  /* sKILLS */
+
+
+
   /* projects */
   .project-cards {
   flex-direction: column;
@@ -595,7 +599,11 @@ body {
   flex-direction: column;
 }
 .card {
-padding-inline: 100px;
+
+width: 100%;
+}
+.card-width{
+  width: 100%;
 }
 
 /* Contact */
@@ -605,10 +613,15 @@ padding-inline: 100px;
 .contact-all .contact-form{
   width: 100%;
 }
-.contact-all .contact-info{
+.contact-info{
   width: 100%;
   margin-top: 50px;
-  text-align: center;
+  padding-left: 0;
+}
+/* Footer */
+.footer{
+  flex-direction: column;
+  gap:20px;
 }
 
 }
